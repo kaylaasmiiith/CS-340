@@ -1,1 +1,24 @@
-# CS-340
+1. How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
+To write programs that are maintainable, readable, and adaptable, I focus on breaking down my code into smaller, reusable modules that handle specific tasks. In Project One, I created a CRUD Python module that allowed me to interact with a database in a consistent way, enabling the creation, reading, updating, and deletion of entries. Using this module in Project Two was extremely beneficial for several reasons:
+
+Maintainability: By isolating the database logic in a dedicated module, I made it easier to maintain and update the system without affecting other parts of the code, such as the dashboard.
+Readability: The CRUD module allowed me to simplify the dashboard code by delegating database operations to separate functions. This made the main dashboard code easier to understand and work with.
+Adaptability: Since the CRUD module was independent, I could easily modify it or add new features, such as adding new database fields or supporting additional types of database queries, without needing to rewrite large portions of the code.
+In the future, I could reuse this CRUD module in other projects that require database interaction, such as inventory management systems, CRM applications, or even data-driven web applications. It’s a flexible piece of code that can be adapted to a wide variety of use cases.
+
+2. How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
+As a computer scientist, I approach problems by first breaking them down into smaller, manageable pieces and then addressing each part with a focus on efficiency, scalability, and user requirements. For Grazioso Salvare, I began by analyzing the database requirements and ensuring I understood the data the company needed to track. Once I understood the data model, I created the database structure, ensuring it could easily scale and be adapted if new features were required.
+
+This approach differed from previous assignments because this project had a client component. In earlier projects, the requirements were typically more defined and focused on specific tasks or concepts, but here, I had to consider how the system would serve the business's evolving needs. I had to ensure that the database was not only functional but also scalable and flexible enough to meet future demands.
+
+For future database projects, I would:
+
+Focus on understanding the client’s needs: Getting a clear picture of what the client is asking for helps ensure that the database design will meet their long-term needs.
+Create modular and reusable structures: For example, using ORM (Object Relational Mapping) frameworks or designing adaptable schemas allows for easier future modifications.
+Ensure scalability and performance: I would make sure that the database can handle larger datasets and higher traffic by optimizing indexes, queries, and database structure.
+3. What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
+Computer scientists design and build systems that process, analyze, and manage data to solve problems and automate tasks. They create software solutions that help businesses operate more efficiently, make data-driven decisions, and improve their workflows. The work I did on the Grazioso Salvare project directly contributed to the company’s ability to manage and visualize their data more effectively.
+
+By creating a well-structured database and an easy-to-use dashboard, I helped the company track important metrics in real time, which enabled them to make quicker, more informed decisions. The dashboard also streamlined their data collection process, reducing manual data entry and the potential for errors. This efficiency boost means the company can focus on strategic tasks instead of being bogged down by data management.
+
+The work I did matters because it helps businesses like Grazioso Salvare leverage technology to improve their operations. By providing them with the right tools to manage and analyze their data, I helped them enhance their decision-making, increase productivity, and scale their business more effectively. In the long run, this type of work empowers companies to stay competitive in an increasingly data-driven world.# CS-340
